@@ -8,7 +8,7 @@ public class MoveLeftX : MonoBehaviour
     private PlayerControllerX playerControllerScript;
     private float leftBound = -10;
 
-    // Start is called before the first frame update
+    // Find player component and assign it to playerControllerScript
     void Start()
     {
         playerControllerScript = GameObject.Find("Player").GetComponent<PlayerControllerX>();
